@@ -1,6 +1,10 @@
-# D3-force-link-manage #
+# manage-d3-force #
 
-Manage d3 force directed layouts.
+Manage the hard parts of d3.force.layouts
+
+```
+new Manage(loops, directed, multiedge)
+```
 
  - `loops`: true if a link can connect a node to itself?
  - `directed`: true if a link from A -> B === B -> A?
